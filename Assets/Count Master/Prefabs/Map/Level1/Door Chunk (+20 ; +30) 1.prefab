@@ -102,10 +102,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 90d14941b7af7431f93fc00090943d41, type: 2}
+  - {fileID: 2100000, guid: 06d54508758544999a33c1fbb79f0813, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,6 +127,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &63486857571665496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -206,6 +208,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doors Parent
       objectReference: {fileID: 0}
+    - target: {fileID: 4004701871128621802, guid: fbed3ed80b8c78d468fec3cab1e8a503,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dded60645ac614cd4954f0a8ef15ebad, type: 2}
+    - target: {fileID: 4004701871355930136, guid: fbed3ed80b8c78d468fec3cab1e8a503,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dded60645ac614cd4954f0a8ef15ebad, type: 2}
+    - target: {fileID: 4004701871607810049, guid: fbed3ed80b8c78d468fec3cab1e8a503,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: dded60645ac614cd4954f0a8ef15ebad, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbed3ed80b8c78d468fec3cab1e8a503, type: 3}
 --- !u!4 &2193928451891631013 stripped

@@ -22,7 +22,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 73252056e3dec4576857e108ed063010, type: 2}
+  m_Motion: {fileID: 7400000, guid: d99f5484dedcc4e219aa92678c6a8301, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -233,7 +233,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d6c20132f26104f93baa7c783a6e7c21, type: 2}
+  m_Motion: {fileID: 7400000, guid: 1b87812efb4f445c89f31f715461bc27, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -401,7 +401,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AUS_Controller
+  m_Name: FbBirdEnemyController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: State
@@ -493,8 +493,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: 85cf9596cfb0cfc4e9fba7342a0d64b8,
-    type: 3}
+  m_Motion: {fileID: 7400000, guid: 29ec1d12b9d254c53b7c70afefe8584f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
